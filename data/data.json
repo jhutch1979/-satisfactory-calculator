@@ -456,6 +456,12 @@
             "stack_size": 100
         },
         {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "tier": 2,
+            "stack_size": 200
+        },
+        {
             "name": "Heat Sink",
             "key_name": "heat-sink",
             "tier": 7,
@@ -814,10 +820,10 @@
             "name": "Alternate: Rotor",
             "key_name": "alt-rotor",
             "category": "crafting2",
-            "time": 20,
+            "time": 16,
             "ingredients": [
-                ["steel-pipe", 6],
-                ["wire", 20]
+                ["copper-sheet", 6],
+                ["screw", 52]
             ],
             "product": ["rotor", 3]
         },
@@ -1336,6 +1342,16 @@
                 ["raw-quartz", 2]
             ],
             "product": ["silica", 3]
+        },
+        {
+            "name": "Copper Sheet",
+            "key_name": "copper-sheet",
+            "category": "crafting1",
+            "time": 6,
+            "ingredients": [
+                ["copper-ingot", 2]
+            ],
+            "product": ["copper-sheet", 1]
         },
         {
             "name": "Alternate: Silica",
