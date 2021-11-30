@@ -772,8 +772,8 @@
             "category": "crafting2",
             "time": 12,
             "ingredients": [
-                ["iron-plate", 4],
-                ["screw", 24]
+                ["iron-plate", 6],
+                ["screw", 12]
             ],
             "product": ["reinforced-iron-plate", 1]
         },
