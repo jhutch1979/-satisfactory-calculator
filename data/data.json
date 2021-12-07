@@ -288,6 +288,12 @@
             "stack_size": 100
         },
         {
+            "name": "Water",
+            "key_name": "water",
+            "tier": 3,
+            "stack_size": 300
+        },
+        {
             "name": "Fuel",
             "key_name": "fuel",
             "tier": 5,
@@ -531,12 +537,23 @@
             "name": "Alternate: Iron Ingot Alloy",
             "key_name": "alt-iron-ingot",
             "category": "smelting2",
-            "time": 4,
+            "time": 6,
             "ingredients": [
-                ["iron-ore", 1],
-                ["copper-ore", 1]
+                ["iron-ore", 2],
+                ["copper-ore", 2]
             ],
-            "product": ["iron-ingot", 3]
+            "product": ["iron-ingot", 5]
+        },
+        {
+            "name": "Alternate: Pure Iron Ingot",
+            "key_name": "alt-iron-ingot2",
+            "category": "refining",
+            "time": 12,
+            "ingredients": [
+                ["iron-ore", 7],
+                ["water", 4]
+            ],
+            "product": ["iron-ingot", 13]
         },
         {
             "name": "Copper Ingot",
@@ -787,10 +804,10 @@
             "name": "Alternate: Reinforced Iron Plate",
             "key_name": "alt-reinforced-iron-plate",
             "category": "crafting2",
-            "time": 24,
+            "time": 12,
             "ingredients": [
-                ["iron-plate", 10],
-                ["screw", 24]
+                ["iron-plate", 18],
+                ["screw", 50]
             ],
             "product": ["reinforced-iron-plate", 3]
         },
