@@ -129,6 +129,12 @@
             "stack_size": 100
         },
         {
+            "name": "Water",
+            "key_name": "water",
+            "tier": 3,
+            "stack_size": 300
+        },
+        {
             "name": "Copper Ore",
             "key_name": "copper-ore",
             "tier": 0,
