@@ -260,7 +260,6 @@ function mineHandler(d) {
 
 function renderResources(settings) {
     spec.initMinerSettings()
-    console.log(settings);
     if (settings.has("miners")) {
         let miners = settings.get("miners").split(",")
         for (let minerString of miners) {
@@ -294,6 +293,7 @@ function renderResources(settings) {
         }
         resources.push({recipe, purities, minerDefs})
     }
+    console.log(resources);
     let resourceTable = div.selectAll("table")
         .data(resources)
         .join("table")
