@@ -112,6 +112,13 @@
             "category": "oil",
             "base_rate": 120,
             "power": 40
+        },
+        {
+            "name": "Water Extractor",
+            "key_name": "water-extractor",
+            "category": "water",
+            "base_rate": 120,
+            "power": 40
         }
     ],
     "items": [
@@ -300,12 +307,6 @@
             "key_name": "crude-oil",
             "tier": 5,
             "stack_size": 100
-        },
-        {
-            "name": "Water",
-            "key_name": "water",
-            "tier": 3,
-            "stack_size": 300
         },
         {
             "name": "Fuel",
@@ -1627,6 +1628,10 @@
         {
             "key_name": "uranium",
             "category": "mineral"
+        },
+        {
+            "key_name": "water",
+            "category": "water"
         }
     ]
 }
